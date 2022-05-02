@@ -18,8 +18,23 @@ struct CoinManager {
         
         if let url = URL(string: urlString) {
             // url 에다 urlString 담기
+            let sesseion = URLSession(configuration: .default)
+            // session 안에다 URLSeesion 디폴트 값으로 담기
+            let task = sesseion.dataTask(with: url) { (data, response, error) in
+                if error != nil {
+                    print(error)
+                    return
+                }
+                if let safeData = data {
+                    
+                }
+            }
         }
             
             
+    }
+    
+    func prearJSON(_ Data: data) -> Double? {
+        
     }
 }
