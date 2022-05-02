@@ -17,6 +17,7 @@ struct CoinManager {
         let urlString = "\(baseUrl)/\(currency)?apikey=\(myApiKey)"
         
         if let url = URL(string: urlString)
+            // 일단 url에 담기
             
     }
 }
