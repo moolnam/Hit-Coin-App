@@ -16,8 +16,10 @@ struct CoinManager {
     func getCoinPrice(for currency: String) {
         let urlString = "\(baseUrl)/\(currency)?apikey=\(myApiKey)"
         
-        if let url = URL(string: urlString)
-            // 일단 url에 담기
+        if let url = URL(string: urlString) {
+            // url 에다 urlString 담기
+        }
+            
             
     }
 }
