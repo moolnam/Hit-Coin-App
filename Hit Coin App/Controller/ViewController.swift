@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var bitLabel: UILabel!
     @IBOutlet weak var currencyLabel: UILabel!
     @IBOutlet weak var bitPicker: UIPickerView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

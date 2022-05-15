@@ -65,8 +65,8 @@
 				78086A26281FBFF7000D769C /* AppDelegate.swift */,
 				78086A28281FBFF7000D769C /* SceneDelegate.swift */,
 				78086A41281FC2A0000D769C /* Model */,
-				78086A3E281FC274000D769C /* View */,
-				78086A2C281FBFF7000D769C /* Main.storyboard */,
+				78086A3E281FC274000D769C /* Controller */,
+				784C5B482820CC8800F1212A /* View */,
 				78086A32281FBFF9000D769C /* Assets.xcassets */,
 				78086A34281FBFF9000D769C /* LaunchScreen.storyboard */,
 				78086A37281FBFF9000D769C /* Info.plist */,
@@ -75,12 +75,12 @@
 			path = "Hit Coin App";
 			sourceTree = "<group>";
 		};
-		78086A3E281FC274000D769C /* View */ = {
+		78086A3E281FC274000D769C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				78086A2A281FBFF7000D769C /* ViewController.swift */,
 			);
-			path = View;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		78086A41281FC2A0000D769C /* Model */ = {
@@ -90,6 +90,14 @@
 				78086A42281FC2C6000D769C /* CoinData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		784C5B482820CC8800F1212A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78086A2C281FBFF7000D769C /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
